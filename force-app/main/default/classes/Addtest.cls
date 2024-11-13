@@ -9,7 +9,8 @@ public class Addtest
     {
 
         Add ad=new Add();
-
+        integer sum = ad.addt(3,5);
+        system.assertEquals(8, sum, 'inccorect method');
     }
 
 }
